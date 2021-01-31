@@ -28,10 +28,6 @@ class LoginMiddleware
         {
             return redirect("/");
         }
-        if($request->path()=="admin" && $request->session()-> has(null) )
-        {
-            return redirect("/");  
-        }
         return $next($request);
     }
 }

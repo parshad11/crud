@@ -25,6 +25,7 @@ Route::get("signuppage",[LoginController::class,"signuppage"]);
 Route::post("signupsubmit",[LoginController::class,'signupsubmit']);
 Route::post("loginsubmit",[LoginController::class,'loginsubmit']);
 Route::get("logoutsubmit",[LoginController::class,'logoutsubmit']);
+//middleware
 Route::get("/",[LoginController::class,'middlewareuser']);
 
 // Product Route

@@ -61,7 +61,7 @@ class LoginController extends Controller
     return redirect('/');
    }
    //
-   function middlewareuser(){
-       return view('post');
-   }
+
+
+
 }
